@@ -1,0 +1,10 @@
+path: D:/JAY/SpaceDebrisDetection/dataset/yolo_debris
+
+train: images/train
+val: images/validation
+test: images/test
+
+nc: 1
+
+names:
+  0: debris

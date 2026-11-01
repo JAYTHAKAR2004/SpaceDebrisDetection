@@ -1,0 +1,21 @@
+{
+    "splits": [
+        {
+            "dataset": "CVI2-UniLU/SPARK-2022",
+            "config": "default",
+            "split": "train"
+        },
+        {
+            "dataset": "CVI2-UniLU/SPARK-2022",
+            "config": "default",
+            "split": "validation"
+        },
+        {
+            "dataset": "CVI2-UniLU/SPARK-2022",
+            "config": "default",
+            "split": "test"
+        }
+    ],
+    "pending": [],
+    "failed": []
+}

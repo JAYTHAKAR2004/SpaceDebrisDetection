@@ -1,0 +1,51 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Dataset images (large files - re-download via scripts)
+dataset/debris_samples/train/images/
+dataset/debris_samples/validation/images/
+dataset/debris_samples/test/images/
+dataset/yolo_debris/images/
+dataset/raw/
+dataset/sample_images/
+
+# YOLO training runs
+runs/
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+
+# Results & visualizations (generated)
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
